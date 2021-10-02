@@ -3,7 +3,7 @@ INSTALL_SCRIPT_PATH="$CHEZMOI_SCRIPT_PATH/install"
 
 "$INSTALL_SCRIPT_PATH/distro_packages.sh"
 
-if [ ! -d "${ZINIT[HOME_DIR]}" ]; then
+if [ ! -d "$ADOTDIR" ]; then
   "$INSTALL_SCRIPT_PATH/zsh_plugins.sh"
 fi
 

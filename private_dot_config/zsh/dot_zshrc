@@ -1,7 +1,7 @@
 if [[ -r "$XDG_CACHE_HOME/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "$XDG_CACHE_HOME/p10k-instant-prompt-${(%):-%n}.zsh"
+  . "$XDG_CACHE_HOME/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source "$ZDOTDIR/zinit.zsh"
-source "$ZDOTDIR/aliases.zsh"
-source "$ZDOTDIR/p10k.zsh"
+. "$ZDOTDIR/antigen.zsh"
+. "$ZDOTDIR/aliases.zsh"
+. "$ZDOTDIR/p10k.zsh"
