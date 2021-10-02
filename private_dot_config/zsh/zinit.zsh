@@ -1,4 +1,4 @@
-source "${ZINIT[BIN_DIR]}/zinit.sh"
+. "${ZINIT[BIN_DIR]}/zinit.zsh"
 
 zinit snippet 'OMZP::cargo'
 zinit snippet 'OMZP::rustup'
