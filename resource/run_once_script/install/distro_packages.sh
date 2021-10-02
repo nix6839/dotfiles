@@ -22,8 +22,8 @@ install_makepkg 'https://github.com/nix6839/my-fonts.git'
 curl -O 'https://linux.dropbox.com/fedora/rpm-public-key.asc' && \
   gpg --import rpm-public-key.asc && rm -f rpm-public-key.asc
 paru --needed --noconfirm -S \
-  discord_arch_electron dropbox nerd-fonts-noto kime notion-app bitwarden
-  systemd-boot-pacman-hook visual-studio-code-bin
+  discord_arch_electron dropbox nerd-fonts-noto kime notion-app bitwarden \
+  systemd-boot-pacman-hook visual-studio-code-bin \
 paru --noconfirm --clean
 if [ -f "$HOME/.npmrc" ]; then
   rm -f "$HOME/.npmrc"
