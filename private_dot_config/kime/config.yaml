@@ -1,0 +1,12 @@
+engine:
+  global_hotkeys:
+    S-Space:
+      behavior:
+        Toggle:
+          - Hangul
+          - Latin
+      result: Consume
+    Esc:
+      behavior:
+        Switch: Latin
+      result: Bypass
