@@ -1,0 +1,39 @@
+export LANG='en_US.UTF-8'
+export EDITOR='nvim'
+
+#--< XDG user directories
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+# XDG user directories -->
+
+#--< Set XDG user directories for programs
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export HISTFILE="$XDG_DATA_HOME/zsh/history"
+declare -A ZINIT=(
+  ['HOME_DIR']="$XDG_DATA_HOME/zsh/zinit"
+  ['BIN_DIR']="$XDG_DATA_HOME/zsh/zinit/bin"
+)
+
+export LESSKEY="$XDG_CONFIG_HOME/less/key"
+export LESSHISTFILE="$XDG_DATA_HOME/less/history"
+
+#--< Ruby
+export BUNDLE_USER_CONFIG="$XDG_CONFIG_HOME/bundle"
+export BUNDLE_USER_CACHE="$XDG_CACHE_HOME/bundle"
+export BUNDLE_USER_PLUGIN="$XDG_DATA_HOME/bundle"
+# Ruby -->
+
+#--< Rust
+export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
+# Rust -->
+
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+export NVM_DIR="$XDG_DATA_HOME/nvm"
+# Set XDG user directories for programs -->
+
+#--< Set PATH
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$CARGO_HOME/bin:$PATH"
+# Set PATH -->

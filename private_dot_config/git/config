@@ -1,0 +1,8 @@
+[user]
+	name = Nix
+	email = nix6839@washnix.com
+	signingkey = nix6839@washnix.com
+[commit]
+	gpgsign = true
+[pull]
+	rebase = false
