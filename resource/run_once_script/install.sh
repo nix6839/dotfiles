@@ -19,6 +19,6 @@ tmp=$(mktemp)
 code --list-extensions > "$tmp"
 if ! diff "$CHEZMOI_RESOURCE_PATH/code-extensions.list" "$tmp" > \
   /dev/null 2>&1; then
-  "$INSTALL_SCRIPT_PATH/vscode_extensions.sh"
+  "$INSTALL_SCRIPT_PATH/code_extensions.sh"
 fi
 rm -f "$tmp"
