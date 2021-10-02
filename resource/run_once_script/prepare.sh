@@ -1,4 +1,5 @@
 #!/bin/sh
+. "$CHEZMOI_UTIL_PATH/uncomment.sh"
 
 uncomment 'Color' '/etc/pacman.conf'
 uncomment 'VerbosePkgLists' '/etc/pacman.conf'
