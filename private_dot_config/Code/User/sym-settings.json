@@ -1,7 +1,7 @@
 {
-  // Common
-  "editor.fontFamily": "JetBrains Mono, 'D2Coding', 'D2Coding Nerd Font' 'Noto Sans Mono CJK KR', monospace",
+  "editor.fontFamily": "JetBrains Mono NL, D2Coding Nerd Font, monospace",
   "editor.fontSize": 14,
+  "editor.letterSpacing": 0.4,
   "editor.tabSize": 4,
   "editor.renderWhitespace": "boundary",
   "editor.renderFinalNewline": true,
@@ -17,6 +17,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
+  "window.menuBarVisibility": "hidden",
   "vim.hlsearch": true,
   "vim.ignorecase": false
 }

@@ -8,3 +8,5 @@ export XMODIFIERS='@im=kime'
 
 export CALIBRE_USE_DARK_PALETTE=1
 # FIXME: Vscode XDG dir: https://github.com/Microsoft/vscode/issues/3884
+
+exec i3

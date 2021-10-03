@@ -4,5 +4,4 @@
   ln -sf Dropbox/Media/Pictures . && \
   ln -sf Dropbox/Media/Videos .)
 
-# FIXME: To enable
-#sudo systemctl enable bluetooth
+sudo systemctl enable bluetooth
