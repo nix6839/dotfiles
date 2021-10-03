@@ -1,0 +1,22 @@
+{
+  // Common
+  "editor.fontFamily": "JetBrains Mono, 'D2Coding', 'D2Coding Nerd Font' 'Noto Sans Mono CJK KR', monospace",
+  "editor.fontSize": 14,
+  "editor.tabSize": 4,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderFinalNewline": true,
+  "editor.renderControlCharacters": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    85
+  ],
+  "files.maxMemoryForLargeFilesMB": 8192,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "newUntitledFile",
+  "vim.hlsearch": true,
+  "vim.ignorecase": false,
+}
