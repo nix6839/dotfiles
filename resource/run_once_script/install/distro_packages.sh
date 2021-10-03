@@ -24,7 +24,7 @@ curl -O 'https://linux.dropbox.com/fedora/rpm-public-key.asc' && \
   gpg --import rpm-public-key.asc && rm -f rpm-public-key.asc
 paru --needed --noconfirm -S \
   discord_arch_electron dropbox kime notion-app bitwarden polybar \
-  systemd-boot-pacman-hook ttf-pretendard visual-studio-code-bin
+  systemd-boot-pacman-hook ttf-pretendard visual-studio-code-bin zscroll-git
 paru --noconfirm --clean
 if [ -f "$HOME/.npmrc" ]; then
   rm -f "$HOME/.npmrc"
