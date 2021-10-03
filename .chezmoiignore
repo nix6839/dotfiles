@@ -1,2 +1,2 @@
-private_dot_config/resource/code-settings.json
+{{ .chezmoi.sourceDir }}/private_dot_config/Code/User/sym-settings.json
 resource
