@@ -18,5 +18,5 @@
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
   "vim.hlsearch": true,
-  "vim.ignorecase": false,
+  "vim.ignorecase": false
 }
