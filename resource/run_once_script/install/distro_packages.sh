@@ -1,9 +1,10 @@
 #!/bin/sh
 sudo pacman --noconfirm -Syu
 sudo pacman --needed --noconfirm -S \
-  alacritty bluez chromium clang curl firefox firefox-i18n-ko flameshot gnupg \
-  i3-gaps nomacs noto-fonts noto-fonts-cjk noto-fonts-extra rofi smplayer \
-  smplayer-themes telegram-desktop xclip xdg-utils xorg-server xorg-xinit
+  alacritty bluez blueman chromium clang curl firefox firefox-i18n-ko flameshot gnupg \
+  i3-gaps nomacs noto-fonts noto-fonts-cjk noto-fonts-extra pulseaudio \
+  pulseaudio-alsa pavucontrol rofi smplayer smplayer-themes telegram-desktop xclip \
+  xdg-utils xorg-server xorg-xinit
 
 install_makepkg() {
   url=$1
