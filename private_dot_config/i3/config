@@ -11,6 +11,11 @@ set $right l
 
 focus_follows_mouse no
 
+# Screenshot
+# FIXME: Add capture window's box: https://github.com/flameshot-org/flameshot/issues/1814
+bindsym Mod4+shift+s exec flameshot gui
+bindsym Print exec flameshot full --clipboard
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango:Pretendard 10

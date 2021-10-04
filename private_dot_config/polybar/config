@@ -6,11 +6,14 @@ foreground = #fff
 enable-ipc = true
 
 font-0 = Pretendard:size=11;3
-font-1 = D2Coding Nerd Font;4
-font-2 = Noto Sans CJK JP:size=10;3
+font-1 = JetBrainsMono Nerd Font;4
+font-2 = Twemoji:scale=6.5;3
+font-3 = Noto Sans CJK JP:size=10;3
 
 scroll-up = "#i3.prev"
 scroll-down = "#i3.next"
+
+tray-position = center
 
 modules-left = spotify spotify-prev spotify-play-pause spotify-next i3
 modules-right = date
@@ -18,7 +21,7 @@ modules-right = date
 [module/spotify]
 type = custom/script
 tail = true
-format-prefix = " "
+format-prefix = "  "
 exec = ~/.config/polybar/scripts/spotify/scroll_spotify_status.sh
 
 [module/spotify-prev]
