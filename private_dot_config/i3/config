@@ -174,4 +174,4 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec kime
+exec kime-indicator
