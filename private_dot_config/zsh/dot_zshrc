@@ -2,6 +2,8 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
   exec startx
 fi
 
+export LANG=en_US.UTF-8
+
 if [[ -r "$XDG_CACHE_HOME/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   . "$XDG_CACHE_HOME/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
