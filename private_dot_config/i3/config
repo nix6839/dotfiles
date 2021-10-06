@@ -10,17 +10,30 @@ set $up k
 set $right l
 
 focus_follows_mouse no
+mouse_warping none
+
+exec_always --no-startup-id "feh --bg-scale ~/Downloads/wallpaper.jpg"
+
+# Media player controls
+bindsym XF86AudioPlay exec playerctl --player=psst play-pause
+bindsym XF86AudioNext exec playerctl --player=psst next
+bindsym XF86AudioPrev exec playerctl --player=psst previous
 
 # Screenshot
 # FIXME: Add capture window's box: https://github.com/flameshot-org/flameshot/issues/1814
 bindsym Mod4+shift+s exec flameshot gui
 bindsym Print exec flameshot full --clipboard
 
+# Scratchpad
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango:Pretendard 10
 
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 2
+gaps inner 20
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -33,11 +46,11 @@ exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -63,10 +76,10 @@ bindsym $mod+$up focus up
 bindsym $mod+$right focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+#bindsym $mod+Left focus left
+#bindsym $mod+Down focus down
+#bindsym $mod+Up focus up
+#bindsym $mod+Right focus right
 
 # move focused window
 bindsym $mod+Shift+$left move left
@@ -104,7 +117,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+bindsym $mod+c focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -179,4 +192,4 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec kime-indicator
+exec kime

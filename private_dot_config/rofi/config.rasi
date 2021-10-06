@@ -1,0 +1,5 @@
+configuration {
+    font: "Pretender 12";
+}
+
+@theme "./themes/alter.rasi"

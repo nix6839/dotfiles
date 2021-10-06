@@ -1,3 +1,6 @@
+daemon:
+  modules:
+    - Xim
 engine:
   global_hotkeys:
     S-Space:
@@ -10,3 +13,7 @@ engine:
       behavior:
         Switch: Latin
       result: Bypass
+  hangul:
+    addons:
+      dubeolsik:
+        - TreatJongseongAsChoseong
