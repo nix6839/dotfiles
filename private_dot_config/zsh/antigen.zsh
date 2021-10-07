@@ -5,7 +5,6 @@ antigen bundle 'cargo'
 antigen bundle 'rust'
 antigen bundle 'rustup'
 antigen bundle 'gitfast'
-antigen bundle 'sudo'
 antigen bundle 'cp'
 antigen bundle 'command-not-found'
 

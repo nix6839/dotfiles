@@ -2,13 +2,13 @@
   "editor.fontFamily": "JetBrainsMono Nerd Font, D2Coding",
   "editor.fontSize": 14,
   "editor.letterSpacing": 0.4,
-  "editor.tabSize": 4,
   "editor.renderWhitespace": "boundary",
   "editor.renderFinalNewline": true,
   "editor.renderControlCharacters": true,
   "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
   "editor.rulers": [
-    85
+    80
   ],
   "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
@@ -19,5 +19,17 @@
   "workbench.startupEditor": "newUntitledFile",
   "window.menuBarVisibility": "hidden",
   "vim.hlsearch": true,
-  "vim.ignorecase": false
+  "vim.ignorecase": false,
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.tabSize": 2
+  },
+  "[shellscript]": {
+    "files.eol": "\n",
+    "editor.tabSize": 2
+  }
 }
