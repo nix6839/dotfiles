@@ -19,4 +19,5 @@ install_autocomplete() {
 }
 
 install_autocomplete 'lsd' 'https://github.com/Peltoche'
-install_autocomplete 'bat' 'https://github.com/sharkdp' 'v' 'autocomplete/bat.zsh'
+install_autocomplete 'bat' 'https://github.com/sharkdp' 'v' \
+  'autocomplete/bat.zsh'

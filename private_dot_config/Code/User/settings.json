@@ -20,12 +20,28 @@
   "window.menuBarVisibility": "hidden",
   "vim.hlsearch": true,
   "vim.ignorecase": false,
+  "todo-tree.highlights.defaultHighlight": {
+    "background": "#ad7d02",
+    "foreground": "black",
+    "iconColour": "green",
+    "icon": "check",
+    "gutterIcon": true,
+  },
+  "todo-tree.highlights.customHighlight": {
+    "FIXME": {
+      "background": "#8f0000",
+      "iconColour": "red",
+    },
+  },
   "[html]": {
     "editor.suggest.insertMode": "replace",
     "editor.tabSize": 2
   },
   "[css]": {
     "editor.suggest.insertMode": "replace",
+    "editor.tabSize": 2
+  },
+  "[rasi]": {
     "editor.tabSize": 2
   },
   "[shellscript]": {

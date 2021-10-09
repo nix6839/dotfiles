@@ -1,0 +1,50 @@
+* {
+  font: "Pretendard 14";
+  background-color: rgba(32, 33, 36, 0.7);
+  border-color: #2e343f;
+  text-color: #8ca0aa;
+  width: 600px;
+}
+
+window {
+  spacing: 0;
+  border: 2px 2px 1px 2px;
+  border-radius: 12px;
+  transparency: "screenshot";
+  children: [entry, listview];
+}
+
+entry {
+  expand: false;
+  border: 0 0 1px 0;
+  padding: 16px;
+}
+
+listview {
+  spacing: 0;
+  lines: 12;
+  cycle: true;
+}
+
+element {
+  border: 0 0 1px 0;
+  padding: 8px 10px;
+}
+
+element-icon {
+  margin: 0 6px 0 0;
+  size: 30px;
+}
+
+element-text {
+  padding: 3px 0 0 0;
+}
+
+element.selected, element-text.selected, element-icon.selected {
+  // FIXME: Transparency: https://github.com/davatorium/rofi/discussions/1497
+  background-color: rgba(46, 52, 63, 0.7);
+}
+
+textbox {
+  padding: 8px 14px;
+}
