@@ -23,7 +23,7 @@ entry {
 
 listview {
   spacing: 0;
-  lines: 12;
+  lines: 8;
   cycle: true;
 }
 
