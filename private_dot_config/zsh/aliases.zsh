@@ -16,3 +16,5 @@ alias lR='ls -R'
 alias llR='ls -lR'
 alias laR='ls -AR'
 alias llaR='ls -lAR'
+
+alias sway-windows-type="swaymsg -t get_tree | jq '.nodes | .[] | .nodes | .[] | .nodes, .floating_nodes | .[] | {name, pid, shell}'"

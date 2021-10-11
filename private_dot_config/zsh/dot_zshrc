@@ -1,5 +1,19 @@
 if [[ "$TTY" = '/dev/tty1' ]]; then
-  exec startx
+  export LANG='ko_KR.UTF-8'
+
+  export GTK_IM_MODULE='kime'
+  export QT_IM_MODULE='kime'
+  export XMODIFIERS='@im=kime'
+
+  export MOZ_ENABLE_WAYLAND=1
+  export CALIBRE_USE_DARK_PALETTE=1
+  # FIXME: Vscode XDG dir: https://github.com/Microsoft/vscode/issues/3884
+
+  export XDG_CURRENT_DESKTOP='sway'
+
+  systemctl --user import-environment XDG_CURRENT_DESKTOP
+
+  exec sway
 fi
 
 export LANG='en_US.UTF-8'
