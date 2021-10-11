@@ -40,7 +40,7 @@ bindsym XF86AudioPrev exec playerctl --player=psst previous
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Downloads/wallpaper.jpg fill
+output * bg ~/.local/share/wallpapers/pexels-lumn-167699.jpg fill
 #
 # Example configuration:
 #

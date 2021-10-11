@@ -24,8 +24,8 @@ install_makepkg 'https://github.com/nix6839/my-fonts.git'
 curl -O 'https://linux.dropbox.com/fedora/rpm-public-key.asc' && \
   gpg --import rpm-public-key.asc && rm -f rpm-public-key.asc
 paru --needed --noconfirm -S \
-  dropbox kime nerd-fonts-jetbrains-mono notion-app bitwarden \
-  numix-circle-icon-theme-git psst rofi-lbonn-wayland \
+  discord_arch_electron dropbox kime nerd-fonts-jetbrains-mono notion-app \
+  bitwarden numix-circle-icon-theme-git psst rofi-lbonn-wayland \
   systemd-boot-pacman-hook ttf-pretendard ttf-twemoji visual-studio-code-bin
 paru --noconfirm --clean
 if [ -f "$HOME/.npmrc" ]; then
