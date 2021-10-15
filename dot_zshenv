@@ -25,8 +25,12 @@ export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
 export CARGO_HOME="$XDG_DATA_HOME/cargo"
 # Rust -->
 
-export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+#--< Node
 export NVM_DIR="$XDG_DATA_HOME/nvm"
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
+# Node -->
+
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 # Set XDG user directories for programs -->
 
 #--< Set PATH

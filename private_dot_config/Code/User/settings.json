@@ -5,11 +5,11 @@
   "editor.renderWhitespace": "boundary",
   "editor.renderFinalNewline": true,
   "editor.renderControlCharacters": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -19,33 +19,24 @@
   "workbench.startupEditor": "newUntitledFile",
   "window.menuBarVisibility": "hidden",
   "vim.hlsearch": true,
+  "todo-tree.regex.regex": "( \\*|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
   "vim.ignorecase": false,
   "todo-tree.highlights.defaultHighlight": {
     "background": "#ad7d02",
     "foreground": "black",
     "iconColour": "green",
     "icon": "check",
-    "gutterIcon": true,
+    "gutterIcon": true
   },
   "todo-tree.highlights.customHighlight": {
     "FIXME": {
       "background": "#8f0000",
-      "iconColour": "red",
-    },
+      "iconColour": "red"
+    }
   },
-  "[html]": {
-    "editor.suggest.insertMode": "replace",
-    "editor.tabSize": 2
-  },
-  "[css]": {
-    "editor.suggest.insertMode": "replace",
-    "editor.tabSize": 2
-  },
-  "[rasi]": {
-    "editor.tabSize": 2
-  },
-  "[shellscript]": {
-    "files.eol": "\n",
-    "editor.tabSize": 2
+  "[c]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
   }
+  // FIXME: Self-closing tags https://github.com/prettier/prettier/issues/5246
 }

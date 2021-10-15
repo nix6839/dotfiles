@@ -208,6 +208,7 @@ mode "resize" {
     # Return to default mode
     bindsym Return mode "default"
     bindsym Escape mode "default"
+    bindsym $mod+r mode "default"
 }
 bindsym $mod+r mode "resize"
 
@@ -228,6 +229,7 @@ mode "resize-develop" {
     # Return to default mode
     bindsym Return mode "default"
     bindsym Escape mode "default"
+    bindsym $mod+Shift+i mode "default"
 }
 bindsym $mod+Shift+i mode "resize-develop"
 
