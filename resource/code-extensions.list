@@ -1,6 +1,8 @@
 DavidAnson.vscode-markdownlint
+dbaeumer.vscode-eslint
 dlasagno.rasi
-formulahendry.auto-rename-tag
+ecmel.vscode-html-css
+esbenp.prettier-vscode
 Gruntfuggly.todo-tree
 matklad.rust-analyzer
 ms-vscode.cpptools
@@ -9,4 +11,5 @@ ritwickdey.LiveServer
 serayuzgur.crates
 tamasfe.even-better-toml
 vscodevim.vim
+WallabyJs.quokka-vscode
 zhuangtongfa.material-theme
