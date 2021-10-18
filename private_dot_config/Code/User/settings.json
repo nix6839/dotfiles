@@ -10,6 +10,7 @@
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.rulers": [80],
+  "editor.linkedEditing": true,
   "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -19,8 +20,11 @@
   "workbench.startupEditor": "newUntitledFile",
   "window.menuBarVisibility": "hidden",
   "vim.hlsearch": true,
-  "todo-tree.regex.regex": "( \\*|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
   "vim.ignorecase": false,
+  "vim.handleKeys": {
+    "<C-d>": false
+  },
+  "todo-tree.regex.regex": "( \\*|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.highlights.defaultHighlight": {
     "background": "#ad7d02",
     "foreground": "black",
