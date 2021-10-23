@@ -1,4 +1,5 @@
 #!/bin/sh
+
 sudo pacman --noconfirm -Syu
 sudo pacman --needed --noconfirm -S \
   sway xorg-xwayland wl-clipboard grim slurp jq xdg-utils xdg-user-dirs \

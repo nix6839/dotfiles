@@ -41,6 +41,10 @@
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[rust]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "matklad.rust-analyzer"
   }
   // FIXME: Self-closing tags https://github.com/prettier/prettier/issues/5246
 }

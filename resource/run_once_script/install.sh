@@ -1,4 +1,5 @@
 #!/bin/sh
+
 INSTALL_SCRIPT_PATH="$CHEZMOI_SCRIPT_PATH/install"
 
 "$INSTALL_SCRIPT_PATH/distro_packages.sh"
@@ -9,6 +10,10 @@ fi
 
 if [ ! -f "$XDG_DATA_HOME/nvim/site/autoload/plug.vim" ]; then
   "$INSTALL_SCRIPT_PATH/nvim_plugins.sh"
+fi
+
+if ! command -v nvm > /dev/null 2>&1; then
+  "$INSTALL_SCRIPT_PATH/node.sh"
 fi
 
 if ! command -v rustup > /dev/null 2>&1; then
