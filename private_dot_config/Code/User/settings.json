@@ -11,6 +11,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.rulers": [80],
   "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
   "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -18,7 +19,11 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.sideBar.location": "right",
   "window.menuBarVisibility": "hidden",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "vim.hlsearch": true,
   "vim.ignorecase": false,
   "vim.handleKeys": {
