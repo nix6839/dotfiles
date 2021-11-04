@@ -252,6 +252,7 @@ bar {
 }
 
 exec blueman-applet
+exec kime
 exec wl-paste -t text --watch clipman store
 
 include /etc/sway/config.d/*
