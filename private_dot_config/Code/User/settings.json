@@ -9,6 +9,7 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
   "editor.rulers": [80],
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
