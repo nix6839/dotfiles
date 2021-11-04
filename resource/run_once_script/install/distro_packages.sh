@@ -2,7 +2,8 @@
 
 sudo pacman --noconfirm -Syu
 sudo pacman --needed --noconfirm -S \
-  sway xorg-xwayland wl-clipboard grim slurp jq xdg-utils xdg-user-dirs \
+  sway xorg-xwayland wl-clipboard grim slurp jq xdg-desktop-portal-wlr \
+  xdg-utils xdg-user-dirs  \
   pipewire pipewire-alsa pipewire-pulse pavucontrol bluez blueman playerctl \
   noto-fonts noto-fonts-cjk noto-fonts-extra alacritty clang curl gnupg \
   firefox-developer-edition firefox-developer-edition-i18n-ko chromium \
