@@ -22,9 +22,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.sideBar.location": "right",
   "window.menuBarVisibility": "hidden",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
   "vim.hlsearch": true,
   "vim.ignorecase": false,
   "vim.handleKeys": {
@@ -44,6 +41,10 @@
       "iconColour": "red"
     }
   },
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm",
+  "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+  "gitlens.defaultTimeFormat": "HH:mm",
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
