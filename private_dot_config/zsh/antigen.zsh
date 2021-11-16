@@ -10,7 +10,7 @@ antigen bundle 'command-not-found'
 
 antigen bundle 'zpm-zsh/dropbox'
 antigen bundle 'zsh-users/zsh-autosuggestions'
-antigen bundle 'zdharma/fast-syntax-highlighting'
+antigen bundle 'zdharma-continuum/fast-syntax-highlighting'
 
 antigen theme 'romkatv/powerlevel10k'
 
