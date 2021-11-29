@@ -45,6 +45,7 @@
   "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm",
   "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
   "gitlens.defaultTimeFormat": "HH:mm",
+  "redhat.telemetry.enabled": false,
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
@@ -53,5 +54,4 @@
     "editor.tabSize": 4,
     "editor.defaultFormatter": "matklad.rust-analyzer"
   }
-  // FIXME: Self-closing tags https://github.com/prettier/prettier/issues/5246
 }
