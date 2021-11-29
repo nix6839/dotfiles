@@ -29,7 +29,7 @@ paru --needed --noconfirm -S \
   clipman discord_arch_electron dropbox kime nerd-fonts-jetbrains-mono \
   notion-app bitwarden numix-circle-icon-theme-git psst rofi-lbonn-wayland \
   systemd-boot-pacman-hook ttf-pretendard ttf-twemoji wl-clipboard-x11 \
-  visual-studio-code-bin
+  insomnia visual-studio-code-bin
 paru --noconfirm --clean
 if [ -f "$HOME/.npmrc" ]; then
   rm -f "$HOME/.npmrc"
