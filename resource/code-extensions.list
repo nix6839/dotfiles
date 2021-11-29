@@ -1,3 +1,4 @@
+42Crunch.vscode-openapi
 bradlc.vscode-tailwindcss
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
@@ -10,11 +11,11 @@ esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 Gruntfuggly.todo-tree
-humao.rest-client
 jpoissonnier.vscode-styled-components
 matklad.rust-analyzer
 ms-vscode.cpptools
 PKief.material-icon-theme
+redhat.vscode-yaml
 ritwickdey.LiveServer
 serayuzgur.crates
 tamasfe.even-better-toml
