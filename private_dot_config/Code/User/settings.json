@@ -22,6 +22,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.sideBar.location": "right",
   "window.menuBarVisibility": "hidden",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "vim.hlsearch": true,
   "vim.ignorecase": false,
   "vim.handleKeys": {
@@ -53,5 +54,8 @@
   "[rust]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "matklad.rust-analyzer"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
   }
 }
