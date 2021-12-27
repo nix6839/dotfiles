@@ -1,8 +1,6 @@
-bradlc.vscode-tailwindcss
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dlasagno.rasi
-dsznajder.es7-react-js-snippets
 eamodio.gitlens
 ecmel.vscode-html-css
 eg2.vscode-npm-script
@@ -20,5 +18,6 @@ redhat.vscode-yaml
 ritwickdey.LiveServer
 serayuzgur.crates
 tamasfe.even-better-toml
+VisualStudioExptTeam.vscodeintellicode
 vscodevim.vim
 zhuangtongfa.material-theme
