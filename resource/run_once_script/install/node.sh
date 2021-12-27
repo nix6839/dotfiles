@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# FIXME: Change install script path https://github.com/nvm-sh/nvm/pull/2637
-mkdir "$NVM_DIR" && curl -o- 'https://raw.githubusercontent.com/nix6839/nvm/no-pager/install.sh' | \
+mkdir "$NVM_DIR" && curl -o- 'https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh' | \
   bash && . "$NVM_DIR/nvm.sh" && nvm install 16 && \
   npm install -g typescript create-react-app pm2 serve nodemon
