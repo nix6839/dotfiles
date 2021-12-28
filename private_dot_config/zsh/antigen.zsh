@@ -1,9 +1,7 @@
 . "$ADOTDIR/antigen.zsh"
 
 antigen use 'oh-my-zsh'
-antigen bundle 'cargo'
 antigen bundle 'rust'
-antigen bundle 'rustup'
 antigen bundle 'gitfast'
 antigen bundle 'cp'
 antigen bundle 'command-not-found'
