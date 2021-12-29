@@ -46,6 +46,7 @@
   "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
   "gitlens.defaultTimeFormat": "HH:mm",
   "redhat.telemetry.enabled": false,
+  "path-intellisense.showHiddenFiles": true,
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
