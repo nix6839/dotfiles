@@ -29,9 +29,9 @@ default_floating_border none
 gaps inner 20
 
 # Media player controls
-bindsym XF86AudioPlay exec playerctl --player=psst play-pause
-bindsym XF86AudioNext exec playerctl --player=psst next
-bindsym XF86AudioPrev exec playerctl --player=psst previous
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
 
 # Screenshot
 # FIXME: Not working
