@@ -16,6 +16,8 @@ if ! command -v nvm > /dev/null 2>&1; then
   "$INSTALL_SCRIPT_PATH/node.sh"
 fi
 
+"$INSTALL_SCRIPT_PATH/python.sh"
+
 if ! command -v rustup > /dev/null 2>&1; then
   "$INSTALL_SCRIPT_PATH/rust_and_packages.sh"
 fi

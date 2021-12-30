@@ -8,4 +8,6 @@ uncomment 'ParallelDownloads = 5' '/etc/pacman.conf'
 
 dirname "$LESSKEY" "$LESSHISTFILE" | xargs -L 1 mkdir -p
 dirname "$NODE_REPL_HISTORY" | xargs mkdir -p
+dirname "$PYTHONHISTORY" | xargs mkdir -p && \
+  touch "$PYTHONHISTORY" &&  echo '# init' > "$PYTHONHISTORY"
 mkdir -p "$GNUPGHOME" && chmod 700 "$GNUPGHOME"

@@ -6,7 +6,8 @@ sudo pacman --needed --noconfirm -S \
   xdg-utils xdg-user-dirs  \
   pipewire pipewire-alsa pipewire-pulse pavucontrol bluez blueman playerctl \
   noto-fonts noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono alacritty \
-  clang curl gnupg firefox-developer-edition firefox-developer-edition-i18n-ko \
+  clang python curl gnupg \
+  firefox-developer-edition firefox-developer-edition-i18n-ko \
   chromium smplayer smplayer-themes telegram-desktop unzip
 
 install_makepkg() {

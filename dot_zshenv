@@ -31,6 +31,11 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export NODE_REPL_HISTORY="$XDG_DATA_HOME/node/history"
 # Node -->
 
+#--< Python
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/startup.py"
+export PYTHONHISTORY="$XDG_DATA_HOME/python/history"
+# Python -->
+
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 # Set XDG user directories for programs -->
 

@@ -47,6 +47,10 @@
   "gitlens.defaultTimeFormat": "HH:mm",
   "redhat.telemetry.enabled": false,
   "path-intellisense.showHiddenFiles": true,
+  "python.formatting.provider": "autopep8",
+  "python.linting.pylintEnabled": true,
+  "python.analysis.typeCheckingMode": "strict",
+  "python.venvFolders": [".local/share/python/virtualenvs"],
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
@@ -54,6 +58,10 @@
   "[rust]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "matklad.rust-analyzer"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python"
   },
   "[sql]": {
     "editor.defaultFormatter": "mtxr.sqltools"
