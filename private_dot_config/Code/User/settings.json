@@ -52,6 +52,7 @@
   "python.linting.pylintEnabled": true,
   "python.analysis.typeCheckingMode": "strict",
   "python.venvFolders": [".local/share/python/virtualenvs"],
+  "livePreview.openPreviewTarget": "External Browser",
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
