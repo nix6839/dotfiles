@@ -50,7 +50,7 @@
   "path-intellisense.showHiddenFiles": true,
   "python.formatting.provider": "autopep8",
   "python.linting.pylintEnabled": true,
-  "python.analysis.typeCheckingMode": "strict",
+  "python.analysis.typeCheckingMode": "basic",
   "python.venvFolders": [".local/share/python/virtualenvs"],
   "livePreview.openPreviewTarget": "External Browser",
   "[c]": {
