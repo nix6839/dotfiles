@@ -19,10 +19,10 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.sideBar.location": "right",
   "window.menuBarVisibility": "hidden",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsserver.maxTsServerMemory": 8192,
   "vim.hlsearch": true,
   "vim.ignorecase": false,
   "vim.handleKeys": {
