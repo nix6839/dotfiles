@@ -28,5 +28,3 @@ fi
 . "$ZDOTDIR/antigen.zsh"
 . "$ZDOTDIR/aliases.zsh"
 . "$ZDOTDIR/p10k.zsh"
-
-. "$NVM_DIR/nvm.sh"
