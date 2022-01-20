@@ -53,6 +53,7 @@
   "python.analysis.typeCheckingMode": "basic",
   "python.venvFolders": [".local/share/python/virtualenvs"],
   "livePreview.openPreviewTarget": "External Browser",
+  "prettier.singleQuote": true,
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
@@ -60,6 +61,11 @@
   "[rust]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "matklad.rust-analyzer"
+  },
+  "[go]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.defaultFormatter": "golang.go"
   },
   "[python]": {
     "editor.tabSize": 4,
