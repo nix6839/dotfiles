@@ -8,6 +8,7 @@ EditorConfig.EditorConfig
 eg2.vscode-npm-script
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
+golang.go
 Gruntfuggly.todo-tree
 jpoissonnier.vscode-styled-components
 matklad.rust-analyzer
@@ -23,7 +24,7 @@ oderwat.indent-rainbow
 PKief.material-icon-theme
 redhat.vscode-yaml
 serayuzgur.crates
-TabNine.tabnine-vscode
+steoates.autoimport
 tamasfe.even-better-toml
 VisualStudioExptTeam.vscodeintellicode
 vscodevim.vim
