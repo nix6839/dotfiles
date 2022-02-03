@@ -6,7 +6,6 @@ antigen bundle 'gitfast'
 antigen bundle 'cp'
 antigen bundle 'command-not-found'
 antigen bundle 'docker'
-antigen bundle 'volta'
 
 antigen bundle 'zpm-zsh/dropbox'
 antigen bundle 'zsh-users/zsh-autosuggestions'
