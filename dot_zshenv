@@ -10,6 +10,7 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export HISTFILE="$XDG_DATA_HOME/zsh/history"
 export ADOTDIR="$XDG_DATA_HOME/zsh/antigen"
+export FPATH="$XDG_DATA_HOME/zsh/completions:$FPATH"
 
 export LESSKEY="$XDG_CONFIG_HOME/less/key"
 export LESSHISTFILE="$XDG_DATA_HOME/less/history"

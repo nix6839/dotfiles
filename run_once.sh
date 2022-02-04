@@ -1,4 +1,5 @@
 #!/bin/sh
+
 . "$HOME/.zshenv"
 
 export CHEZMOI_RESOURCE_PATH="$(chezmoi source-path)/resource"

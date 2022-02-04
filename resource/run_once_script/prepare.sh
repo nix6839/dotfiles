@@ -11,3 +11,4 @@ dirname "$NODE_REPL_HISTORY" | xargs mkdir -p
 dirname "$PYTHONHISTORY" | xargs mkdir -p && \
   touch "$PYTHONHISTORY" &&  echo '# init' > "$PYTHONHISTORY"
 mkdir -p "$GNUPGHOME" && chmod 700 "$GNUPGHOME"
+mkdir -p "$XDG_DATA_HOME/zsh/completions"

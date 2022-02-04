@@ -2,7 +2,7 @@
 
 curl --proto '=https' --tlsv1.2 -sSf 'https://sh.rustup.rs' | sh -s -- \
   -y --no-modify-path && rm -f "$CARGO_HOME/env" && \
-  cargo install lsd bat silicon cargo-update
+  cargo install lsd bat silicon tealdeer cargo-update
 
 install_autocomplete() {
   name=$1
@@ -15,10 +15,11 @@ install_autocomplete() {
   autocomplete_path="$dir/${4:-autocomplete/_$name}"
 
   curl -LO "$down_url" && tar -zxvf "$file" && rm "$file" && \
-    sudo cp "$autocomplete_path" "/usr/share/zsh/site-functions/_$name" && \
+    cp "$autocomplete_path" "$XDG_DATA_HOME/zsh/completions/_$name" && \
     rm -rf "$dir"
 }
 
 install_autocomplete 'lsd' 'https://github.com/Peltoche'
 install_autocomplete 'bat' 'https://github.com/sharkdp' 'v' \
   'autocomplete/bat.zsh'
+curl -Lo "$XDG_DATA_HOME/zsh/completions/_tldr" 'https://github.com/dbrgn/tealdeer/releases/download/v1.5.0/completions_zsh'
