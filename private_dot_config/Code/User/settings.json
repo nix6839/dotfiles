@@ -23,6 +23,11 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.maxTsServerMemory": 8192,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "vim.hlsearch": true,
   "vim.ignorecase": false,
   "vim.handleKeys": {
@@ -31,15 +36,15 @@
   "todo-tree.regex.regex": "( \\*|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.highlights.defaultHighlight": {
     "background": "#ad7d02",
-    "foreground": "black",
-    "iconColour": "green",
+    "foreground": "#000",
+    "iconColour": "#0f0",
     "icon": "check",
     "gutterIcon": true
   },
   "todo-tree.highlights.customHighlight": {
     "FIXME": {
       "background": "#8f0000",
-      "iconColour": "red"
+      "iconColour": "#f00"
     }
   },
   "gitlens.defaultDateStyle": "absolute",
