@@ -24,10 +24,11 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.maxTsServerMemory": 8192,
   "typescript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
   "vim.hlsearch": true,
   "vim.ignorecase": false,
   "vim.handleKeys": {
@@ -51,7 +52,6 @@
   "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm",
   "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
   "gitlens.defaultTimeFormat": "HH:mm",
-  "redhat.telemetry.enabled": false,
   "path-intellisense.showHiddenFiles": true,
   "python.formatting.provider": "autopep8",
   "python.linting.pylintEnabled": true,
@@ -77,6 +77,14 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "[sql]": {
-    "editor.defaultFormatter": "mtxr.sqltools"
-  }
+    "editor.defaultFormatter": "lea21st.vscode-sql-formatter"
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "sql-formatter.dialect": "mariadb"
 }

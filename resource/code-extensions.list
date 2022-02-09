@@ -10,7 +10,7 @@ esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 golang.go
 Gruntfuggly.todo-tree
-jpoissonnier.vscode-styled-components
+lea21st.vscode-sql-formatter
 matklad.rust-analyzer
 ms-azuretools.vscode-docker
 ms-python.python
@@ -19,13 +19,11 @@ ms-toolsai.jupyter
 ms-vscode.cpptools
 ms-vscode.live-server
 ms-vsliveshare.vsliveshare
-mtxr.sqltools
-mtxr.sqltools-driver-mysql
 oderwat.indent-rainbow
 PKief.material-icon-theme
-redhat.vscode-yaml
 serayuzgur.crates
 steoates.autoimport
+styled-components.vscode-styled-components
 tamasfe.even-better-toml
 VisualStudioExptTeam.vscodeintellicode
 vscodevim.vim
