@@ -24,6 +24,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.maxTsServerMemory": 8192,
   "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "vim.hlsearch": true,
   "vim.ignorecase": false,
   "vim.handleKeys": {
@@ -54,6 +55,7 @@
   "python.venvFolders": [".local/share/python/virtualenvs"],
   "livePreview.openPreviewTarget": "External Browser",
   "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
@@ -80,6 +82,14 @@
     "editor.wordWrap": "on",
     "editor.quickSuggestions": false,
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[dockercompose]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "sql-formatter.dialect": "mariadb"
 }
