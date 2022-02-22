@@ -15,7 +15,7 @@ if [[ "$TTY" = '/dev/tty1' ]]; then
 
   systemctl --user import-environment XDG_CURRENT_DESKTOP
 
-  eval "$(ssh-agent -t 60m)"
+  eval "$(ssh-agent -t 60m)" > /dev/null
 
   exec sway
 fi
