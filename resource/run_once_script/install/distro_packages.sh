@@ -28,8 +28,9 @@ curl -O 'https://linux.dropbox.com/fedora/rpm-public-key.asc' && \
   gpg --import rpm-public-key.asc && rm -f rpm-public-key.asc
 paru --needed --noconfirm -S \
   clipman dropbox kime nerd-fonts-jetbrains-mono notion-app bitwarden marktext \
-  numix-circle-icon-theme-git rofi-lbonn-wayland systemd-boot-pacman-hook \
-  ttf-pretendard ttf-twemoji wl-clipboard-x11 insomnia visual-studio-code-bin
+  numix-circle-icon-theme-git rofi-lbonn-wayland-git systemd-boot-pacman-hook \
+  ttf-pretendard ttf-twemoji wl-clipboard-x11 insomnia-bin \
+  visual-studio-code-bin
 paru --noconfirm --clean
 if [ -f "$HOME/.npmrc" ]; then
   rm -f "$HOME/.npmrc"
