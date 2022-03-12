@@ -11,10 +11,10 @@ EditorConfig.EditorConfig
 eg2.vscode-npm-script
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
-gitkraken.gitkraken-authentication
 golang.go
 Gruntfuggly.todo-tree
 lea21st.vscode-sql-formatter
+LeonardSSH.vscord
 matklad.rust-analyzer
 meganrogge.template-string-converter
 mikestead.dotenv

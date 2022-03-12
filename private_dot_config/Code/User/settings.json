@@ -25,6 +25,7 @@
   "typescript.tsserver.maxTsServerMemory": 8192,
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "vim.hlsearch": true,
   "vim.ignorecase": false,
   "vim.handleKeys": {
@@ -54,6 +55,13 @@
   "python.analysis.typeCheckingMode": "basic",
   "python.venvFolders": [".local/share/python/virtualenvs"],
   "livePreview.openPreviewTarget": "External Browser",
+  "rpc.appName": "Visual Studio Code",
+  "rpc.removeDetails": true,
+  "rpc.lowerDetailsViewing": "Viewing {LANG} {problems}",
+  "rpc.lowerDetailsEditing": "Editing {LANG} {problems}",
+  "rpc.lowerDetailsDebugging": "Debugging: {LANG}",
+  "rpc.removeLowerDetailsIdling": false,
+  "rpc.prioritizeLanguagesOverExtensions": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "[c]": {
