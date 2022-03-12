@@ -7,7 +7,8 @@ alias vim='nvim'
 
 alias l='ls'
 alias ll='ls -l'
-alias lt='ls --tree'
+# Conflict with localtunnel
+#alias lt='ls --tree'
 alias la='ls -A'
 alias lla='ls -lA'
 alias lta='ls --tree -A'
