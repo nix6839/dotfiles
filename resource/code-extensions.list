@@ -5,13 +5,13 @@ codezombiech.gitignore
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dlasagno.rasi
-donjayamanne.typescript-notebook
 eamodio.gitlens
 ecmel.vscode-html-css
 EditorConfig.EditorConfig
 eg2.vscode-npm-script
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
+formulahendry.code-runner
 golang.go
 Gruntfuggly.todo-tree
 lea21st.vscode-sql-formatter
@@ -36,4 +36,5 @@ Tobermory.es6-string-html
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 vscodevim.vim
+WallabyJs.quokka-vscode
 yzhang.markdown-all-in-one

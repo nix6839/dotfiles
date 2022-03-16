@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "JetBrainsMono Nerd Font, D2Coding",
+  "editor.fontFamily": "JetBrains Mono NL, D2Coding",
   "editor.fontSize": 14,
   "editor.letterSpacing": 0.4,
   "editor.renderWhitespace": "boundary",
@@ -13,6 +13,8 @@
   "editor.rulers": [80],
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, D2Coding",
+  "terminal.external.linuxExec": "alacritty",
   "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -26,6 +28,10 @@
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "markdown.preview.fontFamily": "NanumGothic",
+  "markdownlint.config": {
+    "MD024": false
+  },
   "vim.hlsearch": true,
   "vim.ignorecase": false,
   "vim.handleKeys": {
