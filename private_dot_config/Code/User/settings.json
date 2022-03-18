@@ -26,9 +26,8 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.maxTsServerMemory": 8192,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "markdown.preview.fontFamily": "NanumGothic",
+  "markdown.preview.fontFamily": "Pretendard",
   "markdownlint.config": {
     "MD024": false
   },
