@@ -29,7 +29,7 @@ curl -O 'https://linux.dropbox.com/fedora/rpm-public-key.asc' && \
 paru --needed --noconfirm -S \
   clipman dropbox kime nerd-fonts-jetbrains-mono notion-app bitwarden marktext \
   numix-circle-icon-theme-git rofi-lbonn-wayland-git systemd-boot-pacman-hook \
-  ttf-pretendard ttf-twemoji wl-clipboard-x11 insomnia-bin \
+  ttf-pretendard ttf-twemoji wl-clipboard-x11 insomnia-bin ngrok \
   visual-studio-code-bin
 paru --noconfirm --clean
 if [ -f "$HOME/.npmrc" ]; then
