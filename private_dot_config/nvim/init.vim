@@ -8,8 +8,8 @@ syntax on       " Turn on syntax highlighting
 set ls=2        " Always display a status line
 set nu          " Print the line number in front of each line
 set et          " Insert spaces instead of <Tab>
-set sw=4        " Number of spaces to use for each step of (auto)indent.
-set ts=4        " tab 크기
+set sw=2        " Number of spaces to use for each step of (auto)indent.
+set ts=2        " tab 크기
 set ai          " 자동 들여쓰기
 set si          " 똑똑한 들여쓰기
 set cindent     " 프로그래밍용 자동 들여쓰기
