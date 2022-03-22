@@ -7,8 +7,7 @@ sudo pacman --needed --noconfirm -S \
   pipewire pipewire-alsa pipewire-pulse pavucontrol bluez blueman playerctl \
   noto-fonts noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono alacritty \
   clang python curl gnupg unzip man docker docker-compose mkcert bind \
-  firefox-developer-edition firefox-developer-edition-i18n-ko chromium \
-  smplayer smplayer-themes telegram-desktop calibre
+  chromium smplayer smplayer-themes telegram-desktop calibre
 
 install_makepkg() {
   url=$1
@@ -29,8 +28,8 @@ curl -O 'https://linux.dropbox.com/fedora/rpm-public-key.asc' && \
 paru --needed --noconfirm -S \
   clipman dropbox kime nerd-fonts-jetbrains-mono notion-app bitwarden marktext \
   numix-circle-icon-theme-git rofi-lbonn-wayland-git systemd-boot-pacman-hook \
-  ttf-pretendard ttf-twemoji wl-clipboard-x11 insomnia-bin ngrok \
-  visual-studio-code-bin
+  ttf-pretendard ttf-twemoji wl-clipboard-x11 microsoft-edge-dev-bin \
+  insomnia-bin ngrok visual-studio-code-bin
 paru --noconfirm --clean
 if [ -f "$HOME/.npmrc" ]; then
   rm -f "$HOME/.npmrc"
