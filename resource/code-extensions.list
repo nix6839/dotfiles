@@ -30,6 +30,7 @@ oderwat.indent-rainbow
 PKief.material-icon-theme
 serayuzgur.crates
 styled-components.vscode-styled-components
+stylelint.vscode-stylelint
 tamasfe.even-better-toml
 timonwong.shellcheck
 Tobermory.es6-string-html
