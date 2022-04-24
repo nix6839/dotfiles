@@ -1,4 +1,5 @@
 alefragnani.project-manager
+asvetliakov.vscode-neovim
 christian-kohler.path-intellisense
 clinyong.vscode-css-modules
 codezombiech.gitignore
@@ -37,6 +38,6 @@ timonwong.shellcheck
 Tobermory.es6-string-html
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
-asvetliakov.vscode-neovim
+wakatime.vscode-wakatime
 WallabyJs.quokka-vscode
 yzhang.markdown-all-in-one
