@@ -68,6 +68,7 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "vscode-neovim.neovimExecutablePaths.linux": "nvim",
+  "sql-formatter.dialect": "mariadb",
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
@@ -106,5 +107,7 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
-  "sql-formatter.dialect": "mariadb"
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  }
 }
