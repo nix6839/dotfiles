@@ -34,11 +34,6 @@
   "markdownlint.config": {
     "MD024": false
   },
-  "vim.hlsearch": true,
-  "vim.ignorecase": false,
-  "vim.handleKeys": {
-    "<C-d>": false
-  },
   "todo-tree.regex.regex": "( \\*|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.highlights.defaultHighlight": {
     "background": "#ad7d02",
@@ -72,6 +67,7 @@
   "rpc.prioritizeLanguagesOverExtensions": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
+  "vscode-neovim.neovimExecutablePaths.linux": "nvim",
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
