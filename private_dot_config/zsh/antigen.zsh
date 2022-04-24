@@ -1,6 +1,7 @@
 . "$ADOTDIR/antigen.zsh"
 
 antigen use 'oh-my-zsh'
+antigen bundle 'ssh-agent'
 antigen bundle 'rust'
 antigen bundle 'gitfast'
 antigen bundle 'cp'

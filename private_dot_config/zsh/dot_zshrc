@@ -15,13 +15,14 @@ if [[ "$TTY" = '/dev/tty1' ]]; then
 
   systemctl --user import-environment XDG_CURRENT_DESKTOP
 
-  eval "$(ssh-agent -t 60m)" > /dev/null
-
   exec sway
 fi
 
 export LANG='en_US.UTF-8'
 export GPG_TTY="$TTY"
+
+zstyle :omz:plugins:ssh-agent lifetime 60m
+zstyle :omz:plugins:ssh-agent quiet yes
 
 if [[ -r "$XDG_CACHE_HOME/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   . "$XDG_CACHE_HOME/p10k-instant-prompt-${(%):-%n}.zsh"
