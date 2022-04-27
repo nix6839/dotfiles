@@ -1,0 +1,9 @@
+[
+  // Ctrl + Shift + / | Comment Block
+  // FIXME: https://github.com/vscode-neovim/vscode-neovim/issues/813
+  {
+    "key": "ctrl+shift+oem_2",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus"
+  }
+]
