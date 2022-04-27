@@ -34,7 +34,8 @@
   "markdownlint.config": {
     "MD024": false
   },
-  "todo-tree.regex.regex": "( \\*|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.regex.regex": "( \\*|@|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.regex.regexCaseSensitive": false,
   "todo-tree.highlights.defaultHighlight": {
     "background": "#ad7d02",
     "foreground": "#000",
