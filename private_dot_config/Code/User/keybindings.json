@@ -5,5 +5,12 @@
     "key": "ctrl+shift+oem_2",
     "command": "editor.action.blockComment",
     "when": "editorTextFocus"
+  },
+  // Keyboard quickfix
+  // FIXME: https://github.com/microsoft/vscode/issues/55111
+  {
+    "key": "ctrl+.",
+    "command": "keyboard-quickfix.openQuickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
   }
 ]
