@@ -16,6 +16,7 @@
   "editor.rulers": [80],
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
+  "terminal.integrated.commandsToSkipShell": ["-workbench.action.quickOpen"],
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, D2Coding",
   "terminal.external.linuxExec": "alacritty",
   "files.maxMemoryForLargeFilesMB": 8192,
