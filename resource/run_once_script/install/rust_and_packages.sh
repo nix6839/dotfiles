@@ -1,7 +1,7 @@
 #!/bin/sh
 
 curl --proto '=https' --tlsv1.2 -sSf 'https://sh.rustup.rs' | sh -s -- \
-  -y --no-modify-path && rm -f "$CARGO_HOME/env" && \
+  -y --no-modify-path && rm -f "$CARGO_HOME/env" &&
   cargo install lsd bat silicon tealdeer git-delta cargo-update
 
 install_autocomplete() {
@@ -14,8 +14,8 @@ install_autocomplete() {
   dir=$(basename "$file" .tar.gz)
   autocomplete_path="$dir/${4:-autocomplete/_$name}"
 
-  curl -LO "$down_url" && tar -zxvf "$file" && rm "$file" && \
-    cp "$autocomplete_path" "$XDG_DATA_HOME/zsh/completions/_$name" && \
+  curl -LO "$down_url" && tar -zxvf "$file" && rm "$file" &&
+    cp "$autocomplete_path" "$XDG_DATA_HOME/zsh/completions/_$name" &&
     rm -rf "$dir"
 }
 
