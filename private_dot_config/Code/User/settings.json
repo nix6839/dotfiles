@@ -16,6 +16,7 @@
   "editor.rulers": [80],
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.commandsToSkipShell": ["-workbench.action.quickOpen"],
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, D2Coding",
   "terminal.external.linuxExec": "alacritty",
@@ -111,5 +112,8 @@
   },
   "[svg]": {
     "editor.defaultFormatter": "jock.svg"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   }
 }
