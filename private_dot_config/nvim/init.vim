@@ -1,14 +1,24 @@
+function! Cond(Cond, ...)
+  let opts = get(a:000, 0, {})
+  return a:Cond ? opts : extend(opts, { 'on': [], 'for': [] })
+endfunction
+
+call plug#begin(stdpath('data') . '/plugged')
+  " All
+  Plug 'tpope/vim-surround'
+
+  " vscode-neovim Only
+
+  " Vim Only
+  Plug 'editorconfig/editorconfig-vim', Cond(!exists('g:vscode'))
+call plug#end()
+
 if exists('g:vscode')
   let mapleader = ";"
   vnoremap <leader>y "+y
   nnoremap <leader>y "+y
 else
-  call plug#begin(stdpath('data') . '/plugged')
-    " https://github.com/editorconfig/editorconfig-vim
-    Plug 'editorconfig/editorconfig-vim'
-  call plug#end()
-
-" Vim options
+  " Vim options
   syntax on       " Turn on syntax highlighting
   set ls=2        " Always display a status line
   set nu          " Print the line number in front of each line
