@@ -2,7 +2,7 @@
 
 curl --proto '=https' --tlsv1.2 -sSf 'https://sh.rustup.rs' |
   sh -s -- -y --no-modify-path && cargo install |
-  lsd bat silicon tealdeer git-delta cargo-update
+  lsd bat tealdeer git-delta cargo-update
 
 install_autocomplete() {
   name=$1
