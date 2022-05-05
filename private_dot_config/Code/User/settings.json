@@ -18,7 +18,7 @@
   "editor.minimap.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.commandsToSkipShell": ["-workbench.action.quickOpen"],
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, D2Coding",
+  "terminal.integrated.fontFamily": "JetBrainsMonoNL NF, D2Coding",
   "terminal.external.linuxExec": "alacritty",
   "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
