@@ -15,6 +15,7 @@
   "editor.rulers": [80],
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.commandsToSkipShell": ["-workbench.action.quickOpen"],
   "terminal.integrated.fontFamily": "JetBrainsMonoNL NF, D2Coding",
@@ -31,6 +32,11 @@
   "typescript.tsserver.maxTsServerMemory": 8192,
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
   "markdown.preview.fontFamily": "Pretendard",
   "markdownlint.config": {
     "MD024": false
