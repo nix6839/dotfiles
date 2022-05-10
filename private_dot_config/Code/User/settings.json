@@ -75,6 +75,14 @@
   "rpc.prioritizeLanguagesOverExtensions": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "typescript",
+    "typescriptreact"
+  ],
   "vscode-neovim.neovimExecutablePaths.linux": "nvim",
   "sql-formatter.dialect": "mariadb",
   "[c]": {
