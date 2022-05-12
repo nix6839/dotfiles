@@ -28,11 +28,11 @@ ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-vscode.cpptools
-ms-vscode.live-server
 ms-vsliveshare.vsliveshare
 oderwat.indent-rainbow
 pascalsenn.keyboard-quickfix
 PKief.material-icon-theme
+ritwickdey.liveserver
 serayuzgur.crates
 styled-components.vscode-styled-components
 stylelint.vscode-stylelint
