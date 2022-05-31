@@ -15,6 +15,7 @@ esbenp.prettier-vscode
 formulahendry.code-runner
 foxundermoon.shell-format
 golang.go
+graphql.vscode-graphql
 Gruntfuggly.todo-tree
 jock.svg
 lea21st.vscode-sql-formatter
@@ -23,6 +24,7 @@ matklad.rust-analyzer
 meganrogge.template-string-converter
 mechatroner.rainbow-csv
 mikestead.dotenv
+mkaufman.htmlhint
 ms-azuretools.vscode-docker
 ms-python.python
 ms-python.vscode-pylance
