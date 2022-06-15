@@ -27,6 +27,15 @@
   "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
@@ -130,6 +139,12 @@
     "editor.defaultFormatter": "jock.svg"
   },
   "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   }
 }
