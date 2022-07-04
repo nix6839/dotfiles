@@ -50,6 +50,7 @@
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
+  "svelte.enable-ts-plugin": true,
   "markdown.preview.fontFamily": "Pretendard",
   "markdownlint.config": {
     "MD024": false
@@ -97,6 +98,9 @@
   ],
   "vscode-neovim.neovimExecutablePaths.linux": "nvim",
   "sql-formatter.dialect": "mariadb",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
   "[c]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-vscode.cpptools"
