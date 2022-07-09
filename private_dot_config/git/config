@@ -21,8 +21,6 @@
 	signingkey = nix6839@washnix.com
 [commit]
 	gpgsign = true
-[pull]
-	rebase = false
 [push]
 	default = current
 [init]
