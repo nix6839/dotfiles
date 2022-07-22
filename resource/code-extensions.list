@@ -2,6 +2,7 @@ alefragnani.project-manager
 asvetliakov.vscode-neovim
 chakrounanas.turbo-console-log
 christian-kohler.path-intellisense
+cipchk.cssrem
 clinyong.vscode-css-modules
 codezombiech.gitignore
 DavidAnson.vscode-markdownlint
@@ -47,3 +48,4 @@ VisualStudioExptTeam.vscodeintellicode
 wakatime.vscode-wakatime
 xadillax.viml
 yzhang.markdown-all-in-one
+zixuanchen.vitest-explorer
